@@ -19,7 +19,7 @@ PID Controller library
   cd Test_Driven_Development_808x
 ```
 
-## Implement PID algorithm
+## PID algorithm design and stubs
 
 ```bash
 # PIDLibrary design location
