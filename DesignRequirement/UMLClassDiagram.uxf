@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>150</y>
+      <w>370</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>PIDController
+--
+-kp: double
+-kd: double
+-ki: double
+-setpoint: double
+-integral_error: double
+-out_min: double
+-out_max: double
+-sampling_time: double
+--
++PIDController(...)
++calculate(in setpoint:double, 
+		in measurement:double): double
+--
+Responsibilities
+-- Computes control signal using PID algorithm</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>10</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>halign=center
+Tarun Reddy
+[UID: , ID: ]
+Tej Kiran 
+[UID: 119197066, ID: itej89]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>10</x>
+      <y>100</y>
+      <w>460</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>Controller
+--
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
