@@ -17,6 +17,7 @@ target_include_directories(pid-controller-test PUBLIC
 target_link_libraries(pid-controller-test PUBLIC
   # list of libraries:
   gtest
+  gmock
   controller
   )
 

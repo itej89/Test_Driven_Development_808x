@@ -21,6 +21,11 @@ namespace controller {
         double set_point_;
 
         /*!
+         * Previous error
+        */
+        double prev_error_;
+
+        /*!
          * Integral error
         */
         double integral_error_;
