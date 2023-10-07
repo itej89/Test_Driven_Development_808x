@@ -7,7 +7,7 @@
       <x>50</x>
       <y>150</y>
       <w>370</w>
-      <h>260</h>
+      <h>280</h>
     </coordinates>
     <panel_attributes>PIDController
 --
@@ -19,6 +19,7 @@
 -out_min: double
 -out_max: double
 -sampling_time: double
+-prev_error_: double
 --
 +PIDController(...)
 +calculate(in setpoint:double, 
