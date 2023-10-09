@@ -12,6 +12,14 @@ PID Controller library
 - CMake
 - GoogleTest
 
+## Authors
+Part 1 \
+  Driver - @Itej89 \
+  Navigator - @tarunreddyy
+
+Part 2 \
+  Driver - @f-coronado \
+  Navigator - @MayankD409
 ## Standard install via command-line
 ```bash
 # Download the code:
