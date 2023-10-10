@@ -126,8 +126,8 @@ if(WANT_COVERAGE)
     NAME app_coverage          # target name
     EXECUTABLE shell-app       # what to run insdie the build directory?
     EXCLUDE
-    "test/test.cpp"    # App does not run unit test, so don't analyze it
-    "test/main.cpp"    # App does not run unit test, so don't analyze it
+    "test/libcontroller_test/pid_controller_test.cpp"
+    "test/libcontroller_test/main.cpp"
     )
 
 
