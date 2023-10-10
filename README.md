@@ -63,10 +63,10 @@ Part 2 \
   sudo apt-get install gcovr lcov
 # Set the build type to Debug and WANT_COVERAGE=ON
   cmake -D WANT_COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug -S ./ -B build/
-# Now, do a clean compile, run unit test, and generate the covereage report
-  cmake --build build/ --clean-first --target all test_coverage
+# Now, do a clean compile, run unit test, and generate the coverage report
+  cmake --build build/ --clean-first --target all app_coverage
 # open a web browser to browse the test coverage report
-  open build/test_coverage/index.html
+  open build/app_coverage/index.html
 
 ```
 
