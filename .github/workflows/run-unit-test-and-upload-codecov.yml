@@ -53,9 +53,13 @@ jobs:
       # Upload coverage result to CodeCov
       - name: Upload coverage result to CodeCov
         uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOEKN: ${{ secrets.CODECOV_TOKEN }}
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
           files: ${{github.workspace}}/build/test_coverage.info
+          flags: unittests
+          name: codecov-umbrella
           fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)      
           
