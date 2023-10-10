@@ -12,6 +12,14 @@ PID Controller library
 - CMake
 - GoogleTest
 
+## Authors
+Part 1 \
+  Driver - @Itej89 \
+  Navigator - @tarunreddyy
+
+Part 2 \
+  Driver - @f-coronado \
+  Navigator - @MayankD409
 ## Standard install via command-line
 ```bash
 # Download the code:
@@ -25,7 +33,7 @@ PID Controller library
 # PIDLibrary design location
   Test_Driven_Development_808x/libs/libcontroller/UMLClassDiagram.pdf
 
-# Implement the PID Algorithm inside the below file 
+# PID Algorithm implementation inside the below file 
   Test_Driven_Development_808x/libs/libcontroller/src/pid_controller.cpp
 ```
 
@@ -55,7 +63,7 @@ PID Controller library
   sudo apt-get install gcovr lcov
 # Set the build type to Debug and WANT_COVERAGE=ON
   cmake -D WANT_COVERAGE=ON -D CMAKE_BUILD_TYPE=Debug -S ./ -B build/
-# Now, do a clean compile, run unit test, and generate the covereage report
+# Now, do a clean compile, run unit test, and generate the coverage report
   cmake --build build/ --clean-first --target all test_coverage
 # open a web browser to browse the test coverage report
   open build/test_coverage/index.html
